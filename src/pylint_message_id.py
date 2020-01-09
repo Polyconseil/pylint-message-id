@@ -6,7 +6,7 @@ from pylint.interfaces import ITokenChecker
 
 
 KEYWORDS = ("disable-msg", "enable-msg", "disable", "enable")
-MESSAGE_NUMBER = re.compile(r"[CREIWF]{1}\d*")
+MESSAGE_NUMBER = re.compile(r"[CREIWF]\d+")
 PRAGMA_REGEX = re.compile(r"#.*?\bpylint:\s*([^;#\n]+)")
 
 
