@@ -3,6 +3,7 @@ from pylint.testutils import CheckerTestCase
 from pylint.testutils import Message
 from pylint.testutils import UnittestLinter
 from pylint.testutils import _tokenize_str
+
 from pylint_message_id import NumericalMessageIdChecker
 
 
